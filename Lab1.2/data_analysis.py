@@ -20,6 +20,9 @@ activity = list(map(getvalue, sheet['D'][1:]))
 
 # print (activity)
 
-pyplot.plot(years, temperature, label="Температура")
-pyplot.plot(years, activity, label="Температура")
+pyplot.plot(years, temperature, label='temperature')
+pyplot.plot(years, activity, label='activity')
+pyplot.xlabel('Years')
+pyplot.ylabel(r'temerature\activity')
+pyplot.legend()
 pyplot.show()
