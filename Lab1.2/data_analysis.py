@@ -7,8 +7,10 @@ sheet = wb['Data']
 # temperature = sheet['C'][1:]
 # activity = sheet['D'][1:]
 
+
 def getvalue(x):
     return x.value
+
 
 # years = map(getvalue, sheet['A'][1:])
 # temperature = map(getvalue, sheet['C'][1:])
