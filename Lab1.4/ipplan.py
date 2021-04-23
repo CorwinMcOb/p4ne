@@ -3,11 +3,11 @@ import random
 
 random.seed()
 
-# random.randint(0x0b000000, 0xdf000000)
+# net1 = random.randint(0x0b000000, 0xdf000000)
 
 # random.randint(8, 24)
 
-# net1 = ipaddress.IPv4Network((random.randint(0x0b000000, 0xdf000000), random.randint(8, 24)), strict=False)
+# net1 = IPv4Network((random.randint(0x0b000000, 0xdf000000), random.randint(8, 24)), strict=False)
 
 # print(net1)
 
