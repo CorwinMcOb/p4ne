@@ -9,8 +9,8 @@ for file in glob.glob("./config_files/*.txt"):
     # print(file)
     with open(file) as f:
         for line in f:
-            if line.find("ip address")==1:
+            if line.find("ip address")==1 and line.find("dhcp")==-1:
                 ip_list.append(line.replace("ip address", "").strip())
-
+                # print(line)
 for i in ip_list:
     print(i)
